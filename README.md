@@ -9,7 +9,7 @@
 The bender painter example requires the HEAD version of minium (which now has support for CommonJS in Rhino). If you want to run it, you'll have to [build minium manually](https://github.com/viltgroup/minium/blob/master/README.md#build-minium), and inside `minium-app/target/minium-app`, edit `app.properties`:
 
 <pre>
-rhino.require.module.path = file:///&lt;path for minium-require-lx-meetup3 scripts&gt;/modules
+rhino.require.module.path = file://&lt;path for minium-require-lx-meetup3 scripts&gt;/modules
 </pre>
 
 Also, check for full paths in those scripts :)
